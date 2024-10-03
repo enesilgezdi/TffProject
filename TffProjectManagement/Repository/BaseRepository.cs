@@ -1,6 +1,7 @@
 ﻿
 
 using TffProjectManagement.Models;
+using TffProjectManagement.Models.Enums;
 
 namespace TffProjectManagement.Repository;
 
@@ -37,9 +38,10 @@ public class BaseRepository
            Name = "LEO",
            Surname = "Messi",
            Number = "10",
-           Branch = "Futbol",
+           Branch = Branch.Futbol,
            MarketValue = 100000000,
-           TeamId = 1
+           TeamId = 1,
+           Gender = Gender.Male
         }
     };
 }
